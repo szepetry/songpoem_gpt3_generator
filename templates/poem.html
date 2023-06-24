@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container">
+	<div class="row text-center">
+		<div class="col-12">
+			<div class="container">
+				<img class="img" src="static/lyrica.jpg">
+				<div class="large-text title centered">Lyrica</div>
+			</div>
+		</div>
+	</div>
+	<div id="all-cards">
+		<div class="card" style="width: 60%">
+			<h5 class="card-title">
+				What kind of poem do you want to write?
+			</h5>
+			<div style="width: 60%; margin: auto">
+				<button id="sonnet-btn" class="btn" role="button">sonnet</button>
+				<button id="lim-btn" class="btn" role="button">limerick</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- <span style="white-space: nowrap">
+    dhebdjbde
+		dldncdlndlcd
+		jbckdcnbdlc
+</span> -->
+{% endblock %}

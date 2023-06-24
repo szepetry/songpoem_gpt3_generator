@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container">
+	<div class="row text-center">
+		<div class="col-12">
+			<div class="container">
+				<img class="img" src="static/lyrica.jpg">
+				<div class="large-text title centered">Lyrica</div>
+			</div>
+		</div>
+	</div>
+	<div id="all-cards">
+		<div class="card" style="width: 60%">
+			<h5 class="card-title">
+				What kind of song do you want to write?
+			</h5>
+			<div style="margin: auto">
+				<button id="rap-btn" class="btn" role="button">rap</button>
+				<button id="pop-btn" class="btn" role="button">pop</button>
+				<button id="rb-btn" class="btn" role="button">r&b</button>
+				<button id="country-btn" class="btn" role="button">country</button>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

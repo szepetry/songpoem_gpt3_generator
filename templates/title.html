@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row text-center">
+        <div class="col-12">
+            <div class="container">
+				<img class="img" src="static/lyrica.jpg">
+				<div class="large-text title centered">Lyrica</div>
+			</div>
+        </div>
+    </div>
+    <div id="all-cards">
+        <div class="card" style="width: 60%">
+            <h5 class="card-title">
+                Do you want a title for your <span id="genre_filler"></span>?
+            </h5>
+            <div style="width: 60%; margin: auto">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3 center"><button class="btn" type="button" id="title-tick-btn">✓</button></div>
+                    <div class="col-md-3 center"><a href="/makesongpoem"><button class="btn" type="button" id="title-x-btn">X</button></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    // genre_filler
+    $(document).ready(function () {
+        // FYI: localStorage.content_type stores poem/song. Just incase.
+        document.getElementById("genre_filler").innerText = localStorage.getItem("genre");
+    })
+</script>
+{% endblock %}

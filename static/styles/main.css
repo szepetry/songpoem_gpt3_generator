@@ -1,0 +1,282 @@
+#body {
+    background-color: #e8edf0;
+}
+
+.title {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.container {
+    position: relative;
+    color: black;
+
+}
+
+.card {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 20px;
+}
+
+.img {
+    /* width: 600px;
+    height: 200px; */
+    /* border-radius: 20px; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 60%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    margin: 40px auto;
+}
+
+.large-text {
+    font-size: 40px;
+    font-family: 'Courier New', monospace;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100px;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#song-btn {
+    background-color: #143c3f92;
+    /* background-color: #9FC5E8; */
+    float: left;
+}
+
+#poem-btn {
+    background-color: #361214b0;
+    /* background-color: #7DED8F; */
+    float: right;
+}
+
+#sonnet-btn {
+    /* background-color: #9FC5E8; */
+    background-color: #143c3f92;
+    float: left;
+}
+
+#lim-btn {
+    /* background-color: #7DED8F; */
+    background-color: #361214b0;
+    /* background-color: #ae864c; */
+    float: right;
+}
+
+#rap-btn {
+    background-color: #9FC5E8;
+    margin-right: 20px;
+}
+
+#pop-btn {
+    background-color: #143c3f92;
+    /* background-color: #7DED8F; */
+    margin-right: 20px;
+}
+
+#rb-btn {
+    background-color: #361214b0;
+    /* background-color: #EBA3C3; */
+    margin-right: 20px;
+}
+
+
+#country-btn {
+    background-color: #CABEEA;
+}
+
+#continue-btn {
+    /* background-color: #7DED8F; */
+    background-color: #814c269c;
+}
+
+#home-btn {
+    background-color: #909090;
+}
+
+.continue-anchor-align {
+    text-align: center;
+    align-items: center;
+}
+
+.spinner-align{
+    text-align: center;
+    align-items: center;
+}
+
+#topic_text {
+    border-radius: 08px;
+    color: black;
+    font-size: 14px;
+    border: 1px solid gray;
+}
+
+#artist_text {
+    border-radius: 08px;
+    color: black;
+    font-size: 14px;
+    border: 1px solid gray;
+}
+
+#reference_text {
+    border-radius: 08px;
+    color: black;
+    font-size: 14px;
+    border: 1px solid gray;
+}
+
+/* .topic-anchor{
+    padding-right: 10px !important;
+} */
+
+#topic-tick-btn {
+    color: white;
+    width: 28px;
+    height: 28px;
+    padding: 0px;
+    background-color: #814c269c;
+    /* background-color: #7DED8F; */
+    margin-left: 32px;
+    align-items: center;
+    text-align: center;
+}
+
+#reference-tick-btn {
+    color: white;
+    width: 28px;
+    height: 28px;
+    padding: 0px;
+    background-color: #814c269c;
+    /* background-color: #7DED8F; */
+    margin-left: 32px;
+    align-items: center;
+    text-align: center;
+}
+
+#title-tick-btn {
+    color: white;
+    /* color: black; */
+    width: 28px;
+    height: 28px;
+    padding: 0px;
+    background-color: #814c269c;
+    /* background-color: #7DED8F; */
+    margin-left: 32px;
+    align-items: center;
+    text-align: center;
+}
+
+#title-x-btn {
+    color: white;
+    /* color: black; */
+    width: 28px;
+    height: 28px;
+    padding: 0px;
+    /* background-color: #ff5050; */
+    background-color: #361214e6;
+    margin-left: 32px;
+    align-items: center;
+    text-align: center;
+}
+
+#summary-tick-btn {
+    /* color: black; */
+    color: white;
+    width: 28px;
+    height: 28px;
+    padding: 0px;
+    background-color: #814c269c;
+    /* background-color: #7DED8F; */
+    margin-left: 32px;
+    align-items: center;
+    text-align: center;
+}
+
+#summary-x-btn {
+    color: white;
+    /* color: black; */
+    width: 28px;
+    height: 28px;
+    padding: 0px;
+    background-color: #361214e6;
+    /* background-color: #ff5050; */
+    margin-left: 32px;
+    align-items: center;
+    text-align: center;
+}
+
+
+#artist-continue-btn {
+    color: white;
+    /* color: black; */
+    height: 28px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left:8px;
+    padding-right:8px;
+    margin-top:10px;
+    background-color: #361214b0;
+    /* background-color: #ea9899; */
+    align-items: center;
+    text-align: center;
+}
+
+#artist-submit-btn {
+    color: white;
+    /* color: black; */
+    height: 28px;
+    padding-top: 0px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom: 0px;
+    background-color: #143c3f92;
+    /* background-color: #7DED8F; */
+    margin-top:10px;
+
+    align-items: center;
+    text-align: center;
+}
+
+.removepadding{
+    padding-left:0px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+}

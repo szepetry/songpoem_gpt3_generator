@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row text-center">
+        <div class="col-12">
+            <div class="container">
+				<img class="img" src="static/lyrica.jpg">
+				<div class="large-text title centered">Lyrica</div>
+			</div>
+        </div>
+    </div>
+    <div id="all-cards">
+        <div class="card" style="width: 60%">
+            <h5 class="card-title">
+                Enter the references you want to add to this <span id="genre_filler"></span>.
+            </h5>
+            <div style="width: 60%; margin: auto">
+                <div class="row">
+                    <div class="col-md-4">reference:</div>
+                    <div class="col-md-5"><input type="text" name="reference_text" placeholder="rain" id="reference_text">
+                    </div>
+                    <div class="col-md-3"><button class="btn" type="button" id="reference-tick-btn">✓</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    // genre_filler
+    $(document).ready(function () {
+        // FYI: localStorage.content_type stores poem/song. Just incase.
+        document.getElementById("genre_filler").innerText = localStorage.getItem("genre");
+    })
+</script>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container">
+	<div class="row text-center">
+		<div class="col-12">
+			<div class="container">
+				<img class="img shadow-sm" src="static/lyrica.jpg" alt="Lyrica">
+				<div class="large-text title centered">Lyrica</div>
+			</div>
+		</div>
+	</div>
+	<div class="card shadow-sm" style="width: 60%">
+		<h5 class="card-title">
+			Do you want to write a song or a poem?
+		</h5>
+		<div style="width: 60%; margin: auto">
+			<a href="{{ url_for('song_view') }}"><button class="btn" type="button" id="song-btn">song</button></a>
+			<a href="{{ url_for('poem_view') }}"><button class="btn" type="button" id="poem-btn">poem</button></a>
+		</div>
+	</div>
+</div>
+{% endblock %}
